@@ -1,0 +1,12 @@
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\bin\Debug\WinFormsControls.exe.config
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\bin\Debug\WinFormsControls.exe
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\bin\Debug\WinFormsControls.pdb
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.csproj.AssemblyReference.cache
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.Properties.Resources.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.csproj.GenerateResource.cache
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.csproj.CoreCompileInputs.cache
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.exe
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.pdb
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.LabelControl.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.ButtonControl.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.MetinAraclari.resources
