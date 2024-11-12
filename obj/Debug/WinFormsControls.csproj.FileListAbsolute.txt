@@ -11,3 +11,6 @@ C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinForm
 C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.ButtonControl.resources
 C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.MetinAraclari.resources
 C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.ComboBoxControl.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.ListBoxControl.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.CheckBoxRadioButtonControls.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.CheckedListBoxControls.resources

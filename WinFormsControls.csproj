@@ -52,6 +52,18 @@
     <Compile Include="ButtonControl.Designer.cs">
       <DependentUpon>ButtonControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckBoxRadioButtonControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckBoxRadioButtonControls.Designer.cs">
+      <DependentUpon>CheckBoxRadioButtonControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckedListBoxControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckedListBoxControls.Designer.cs">
+      <DependentUpon>CheckedListBoxControls.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComboBoxControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +82,12 @@
     <Compile Include="LabelControl.Designer.cs">
       <DependentUpon>LabelControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListBoxControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBoxControl.Designer.cs">
+      <DependentUpon>ListBoxControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="MetinAraclari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +100,20 @@
     <EmbeddedResource Include="ButtonControl.resx">
       <DependentUpon>ButtonControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CheckBoxRadioButtonControls.resx">
+      <DependentUpon>CheckBoxRadioButtonControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckedListBoxControls.resx">
+      <DependentUpon>CheckedListBoxControls.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ComboBoxControl.resx">
       <DependentUpon>ComboBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LabelControl.resx">
       <DependentUpon>LabelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBoxControl.resx">
+      <DependentUpon>ListBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MetinAraclari.resx">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
@@ -116,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\herhangi-bir-adam-v0-8up58kxgtr3c1.jpg" />
+    <Content Include="images\recycle_recyclebin_full_delete_trash_1772.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
