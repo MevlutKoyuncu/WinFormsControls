@@ -70,6 +70,12 @@
     <Compile Include="ComboBoxControl.Designer.cs">
       <DependentUpon>ComboBoxControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="DateTimeControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateTimeControls.Designer.cs">
+      <DependentUpon>DateTimeControls.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,7 +101,19 @@
       <DependentUpon>MetinAraclari.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Marka.cs" />
+    <Compile Include="PictureBoxControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBoxControls.Designer.cs">
+      <DependentUpon>PictureBoxControls.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBarControls.Designer.cs">
+      <DependentUpon>ProgressBarControls.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ButtonControl.resx">
       <DependentUpon>ButtonControl.cs</DependentUpon>
@@ -109,6 +127,9 @@
     <EmbeddedResource Include="ComboBoxControl.resx">
       <DependentUpon>ComboBoxControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DateTimeControls.resx">
+      <DependentUpon>DateTimeControls.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LabelControl.resx">
       <DependentUpon>LabelControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +138,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MetinAraclari.resx">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBoxControls.resx">
+      <DependentUpon>PictureBoxControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBarControls.resx">
+      <DependentUpon>ProgressBarControls.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -142,6 +169,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="32439beermug_98867.ico" />
+    <Content Include="images\32439beermug_98867.ico" />
+    <Content Include="images\Adsız.jpg" />
     <Content Include="images\herhangi-bir-adam-v0-8up58kxgtr3c1.jpg" />
     <Content Include="images\recycle_recyclebin_full_delete_trash_1772.ico" />
   </ItemGroup>

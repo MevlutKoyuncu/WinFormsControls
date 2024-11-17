@@ -14,3 +14,6 @@ C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinForm
 C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.ListBoxControl.resources
 C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.CheckBoxRadioButtonControls.resources
 C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.CheckedListBoxControls.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.DateTimeControls.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.PictureBoxControls.resources
+C:\Users\Mevlut\source\repos\WinFormsControls\WinFormsControls\obj\Debug\WinFormsControls.ProgressBarControls.resources
