@@ -26,7 +26,7 @@ namespace WinFormsControls
             }
             //TSCB_Font.SelectedItem = richTextBox1.Font.Name;
             TSCB_Size.SelectedItem = "11";
-            Font ff = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Bold);
+            //Font ff = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Bold);
 
         }
 
@@ -98,6 +98,34 @@ namespace WinFormsControls
                 richTextBox1.Font = secilifont;
             }
 
+        }
+
+        private void TSB_Bold_Click(object sender, EventArgs e)
+        {
+            if (richTextBox1.Font.Bold == false)
+            {
+                Font kalinfont = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Bold);
+                richTextBox1.Font = kalinfont;
+            }
+            else if (richTextBox1.Font.Bold == true)
+            {
+                Font normalfont = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Regular);
+                richTextBox1.Font= normalfont;
+            }
+        }
+
+        private void TSB_Underline_Click(object sender, EventArgs e)
+        {
+            if (richTextBox1.Font.Underline == false)
+            {
+                Font kalinfont = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Underline);
+                richTextBox1.Font = kalinfont;
+            }
+            else if (richTextBox1.Font.Underline == true)
+            {
+                Font normalfont = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Regular);
+                richTextBox1.Font = normalfont;
+            }
         }
     }
 }
