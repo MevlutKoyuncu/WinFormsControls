@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>32439beermug_98867.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -100,6 +103,12 @@
     <Compile Include="MetinAraclari.Designer.cs">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
     </Compile>
+    <Compile Include="MetinEditorum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetinEditorum.Designer.cs">
+      <DependentUpon>MetinEditorum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Marka.cs" />
     <Compile Include="PictureBoxControls.cs">
       <SubType>Form</SubType>
@@ -139,6 +148,9 @@
     <EmbeddedResource Include="MetinAraclari.resx">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MetinEditorum.resx">
+      <DependentUpon>MetinEditorum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PictureBoxControls.resx">
       <DependentUpon>PictureBoxControls.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +182,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="32439beermug_98867.ico" />
+    <Content Include="images\118908_bookmark_new_icon.png" />
+    <Content Include="images\17436_as_guardar_save_icon.png" />
+    <Content Include="images\285657_floppy_guardar_save_icon.png" />
+    <Content Include="images\30657_new_tab_icon.png" />
     <Content Include="images\32439beermug_98867.ico" />
     <Content Include="images\Adsız.jpg" />
     <Content Include="images\herhangi-bir-adam-v0-8up58kxgtr3c1.jpg" />

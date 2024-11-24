@@ -16,7 +16,7 @@ namespace WinFormsControls
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProgressBarControls());
+            Application.Run(new MetinEditorum());
         }
     }
 }
