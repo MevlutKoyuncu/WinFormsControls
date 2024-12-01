@@ -16,7 +16,7 @@ namespace WinFormsControls
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MetinEditorum());
+            Application.Run(new DataGridControl());
         }
     }
 }

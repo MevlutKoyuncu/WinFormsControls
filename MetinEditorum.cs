@@ -85,7 +85,8 @@ namespace WinFormsControls
                 FontSize = Convert.ToSingle(TSCB_Size.SelectedItem.ToString());
             }
             Font secilifont = new Font(ff, FontSize);
-            richTextBox1.Font = secilifont;
+            richTextBox1.SelectionFont = secilifont;    
+            // richTextBox1.Font = secilifont;
 
         }
 
@@ -105,12 +106,14 @@ namespace WinFormsControls
             if (richTextBox1.Font.Bold == false)
             {
                 Font kalinfont = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Bold);
-                richTextBox1.Font = kalinfont;
+                richTextBox1.SelectionFont = kalinfont;
+               // richTextBox1.Font = kalinfont;
             }
-            else if (richTextBox1.Font.Bold == true)
+            else if (richTextBox1.Font.Bold == false)
             {
                 Font normalfont = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Regular);
-                richTextBox1.Font= normalfont;
+                richTextBox1.SelectionFont = normalfont;
+                //richTextBox1.Font = normalfont;
             }
         }
 
@@ -125,6 +128,26 @@ namespace WinFormsControls
             {
                 Font normalfont = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size, FontStyle.Regular);
                 richTextBox1.Font = normalfont;
+            }
+        }
+
+        private void TSMI_Yazdir_Click(object sender, EventArgs e)
+        {
+            if (printDialog1.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show("Yazdırıldı");
+            }
+            else
+            {
+                MessageBox.Show("İptal Edildi");
+            }
+        }
+
+        private void TSBTN_FontDegistir_Click(object sender, EventArgs e)
+        {
+            if (fontDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.Font = fontDialog1.Font;   
             }
         }
     }

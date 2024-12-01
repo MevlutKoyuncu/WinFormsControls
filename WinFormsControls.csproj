@@ -73,6 +73,12 @@
     <Compile Include="ComboBoxControl.Designer.cs">
       <DependentUpon>ComboBoxControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataGridControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataGridControl.Designer.cs">
+      <DependentUpon>DataGridControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="DateTimeControls.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,18 @@
     <Compile Include="ListBoxControl.Designer.cs">
       <DependentUpon>ListBoxControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="MDIIcinAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIIcinAnaForm.Designer.cs">
+      <DependentUpon>MDIIcinAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxControl.Designer.cs">
+      <DependentUpon>MessageBoxControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="MetinAraclari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +127,7 @@
     <Compile Include="MetinEditorum.Designer.cs">
       <DependentUpon>MetinEditorum.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Marka.cs" />
     <Compile Include="PictureBoxControls.cs">
       <SubType>Form</SubType>
@@ -136,6 +155,9 @@
     <EmbeddedResource Include="ComboBoxControl.resx">
       <DependentUpon>ComboBoxControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DataGridControl.resx">
+      <DependentUpon>DataGridControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DateTimeControls.resx">
       <DependentUpon>DateTimeControls.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +166,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListBoxControl.resx">
       <DependentUpon>ListBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIIcinAnaForm.resx">
+      <DependentUpon>MDIIcinAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxControl.resx">
+      <DependentUpon>MessageBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MetinAraclari.resx">
       <DependentUpon>MetinAraclari.cs</DependentUpon>
