@@ -129,6 +129,7 @@
     </Compile>
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Marka.cs" />
+    <Compile Include="Model\Products.cs" />
     <Compile Include="PictureBoxControls.cs">
       <SubType>Form</SubType>
     </Compile>
